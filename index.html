@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe In My Skin Parthership Program</title>
+    <link rel="stylesheet" href="/form.css">
+    <script defer src="/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+</head>
+<body>
+    <div class="first-cont-rer">
+        <div class="navbar">
+            <div class="logo-bar">
+                <img class="logo-pics" src="/resources/logo.png">
+            </div>
+        </div>
+        <div class="top-cnt">
+            <h1>
+                SAFE IN MY SKIN
+            </h1>
+        </div>
+    </div>
+    <div class="form-page" id="contact-form">
+        <h1>Kindly fill in correctly</h1>
+        <form>
+            <input class="input-text" type="text" id="full_name" name="first_name" placeholder="Fullname" required><br><br>
+
+            <input class="input-email" type="email" id="contact_email" name="email" placeholder="Email address" required><br><br>
+  
+            <input class="input-text" type="number" id="phone_number" name="last_name" placeholder="Phone number (Whatsapp preferred)" required><br><br>
+  
+            <input class="input-text" type="text" id="city_state" name="city" placeholder="City & State" required><br><br>
+  
+            <!-- drop down option -->
+             
+            <!-- new form -->
+             <h2>Job Description</h2>
+            <h3>What best describes you</h3>
+
+            <input type="checkbox" id="describe1" name="best_describe" value="Healthcare professional (Pharmacist, Dermatologist, Esthetician, etc)">
+            <label for="describe1">Healthcare professional (Pharmacist, Dermatologist, Esthetician, etc)</label><br><br>
+
+            <input type="checkbox" id="describe2" name="best_describe" value="Beauty or Skincare enthusiast">
+            <label for="describe2">Beauty or Skincare enthusiast</label><br><br>
+            
+            <input type="checkbox" id="describe3" name="best_describe" value="Content creator / Influencer">
+            <label for="describe3">Content creator / Influencer</label><br><br>
+            
+            <input type="checkbox" id="describe4" name="best_describe" value="Existing client / Community member">
+            <label for="describe4">Existing client / Community member</label><br><br>
+            
+            <input type="checkbox" id="describe5" name="best_describe" value="Interested in retailing skincare products">
+            <label for="describe5">Interested in retailing skincare products</label><br><br>
+
+            <input type="checkbox" id="describe6" name="best_describe" value="Business owner (Interested in retailing skincare products? See next section)">
+            <label for="describe6">Business owner (Interested in retailing skincare products? See next section)</label><br><br>
+
+            <h2>Professional Background</h2>
+
+            <input class="input-text" type="text" id="position" name="position" placeholder="Profession" required><br><br>
+
+            <input class="input-text" type="text" id="years_experince" name="company_name" placeholder="Years of experince" required><br><br>
+
+            <input class="input-text" type="text" id="company_name" name="company_name" placeholder="Work place" required><br><br>
+
+            <input class="input-text" type="url" id="insta_url" name="website_url" placeholder="Instagram profile link" required><br><br>
+
+            <input class="input-text" type="url" id="tik_url" name="website_url" placeholder="Tik Tok profile link" required><br><br>
+
+            <h3>Have you ever recommended SafeInMySkin to someone?
+            </h3>
+            <input type="radio" id="sims_yes" name="sims_someone" value="Yes" required>
+            <label for="sims_yes">Yes</label><br><br>
+        
+            <input type="radio" id="sims_no" name="sims_someone" value="No">
+            <label for="sims_no">No</label><br>
+
+            <h3>How do you plan to share SafeInMyskin?</h3>
+
+            <input type="checkbox" id="share1" name="share_methods" value="Recommending to personal network">
+            <label for="share1">Recommending to personal network</label><br><br>
+            
+            <input type="checkbox" id="share2" name="share_methods" value="Sharing on social media">
+            <label for="share2">Sharing on social media</label><br><br>
+            
+            <input type="checkbox" id="share3" name="share_methods" value="Creating content">
+            <label for="share3">Creating content</label><br><br>
+            
+            <input type="checkbox" id="share4" name="share_methods" value="Interested in retailing skincare">
+            <label for="share4">Interested in retailing skincare products</label><br><br>
+
+            <h3>Do you retail skincare products in your pharmacy? (Pharmacists only)</h3>
+            <input type="radio" id="sell_yes" name="sell_choice" value="Yes" >
+            <label for="sell_yes">Yes</label><br><br>
+        
+            <input type="radio" id="sell_no" name="sell_choice" value="No">
+            <label for="sell_no">No</label><br><br>
+
+            <h2>Reward Preferences</h2>
+
+            <h3>How would you like to get your rewards? - Choose one.</h3>
+
+            <input type="checkbox" id="reward1" name="reward_options" value="Direct cash payouts">
+            <label for="reward1">Direct cash payouts</label><br><br>
+            
+            <input type="checkbox" id="reward2" name="reward_options" value="Store credit">
+            <label for="reward2">Store credit to use on SafeInMySkin Services</label><br><br>
+            
+            <input type="checkbox" id="reward3" name="reward_options" value="Exclusive gifts">
+            <label for="reward3">Exclusive Gifts & Skincare Perks</label><br><br>
+
+            <h3>Would you be interested in skincare trainings, exclusive brand insights, or insider tips?</h3>
+            <input type="radio" id="inter_yes" name="inte_rest" value="Yes" required>
+            <label for="inter_yes">Yes</label><br><br>
+         
+            <input type="radio" id="inter_no" name="inte_rest" value="No">
+            <label for="inter_no">No</label><br> 
+
+            <h2>Agreements & Next Steps</h2>
+
+            <input type="checkbox" id="agree1" name="agree_terms" value="I agree to share information about SAFEINMYSKIN ethically and responsibly.">
+            <label for="agree1">I agree to share information about SAFEINMYSKIN ethically and responsibly.</label><br><br>
+        
+            <input type="checkbox" id="agree2" name="agree_terms" value="I understand that earnings are only processed after a successful client booking or eligible sale.">
+            <label for="agree2">I understand that earnings are only processed after a successful client booking or eligible sale.</label><br><br>
+        
+            <input type="checkbox" id="agree3" name="agree_terms" value="I consent to receiving updates about this program and exclusive partner opportunities.">
+            <label for="agree3">I consent to receiving updates about this program and exclusive partner opportunities.</label><br><br>
+
+            <!-- radio points -->
+            <div class="fi-rm-rk">
+                <h2>Final Remark</h2>
+                <p>
+                    Thank you for signing up! You will receive your unique referral code and WhatsApp group link once your registration is approved.
+                </p>
+            </div><br><br>
+            <div id="code-display" style="margin-top: 20px; font-weight: bold; font-size: 18px;"></div>
+            <input class="submit-button" type="submit" value="Submit">
+        
+            <!-- <h3>Would you like to be listed as a trusted stockist?</h3>
+            <input type="radio" id="stockist_yes" name="stockist_choice" value="Yes" required>
+            <label for="stockist_yes">Yes</label><br><br>
+        
+            <input type="radio" id="stockist_no" name="stockist_choice" value="No">
+            <label for="stockist_no">No</label><br><br>          
+            
+            <h3>Do you create skincare content?
+            </h3>
+            <input type="radio" id="skincare_yes" name="skin_care" value="Yes" required>
+            <label for="skincare_yes">Yes</label><br><br>
+        
+            <input type="radio" id="skincare_yes" name="skin_care" value="No">
+            <label for="skincare_no">No</label><br>
+            
+            enter into javascript
+
+            <h2> Business owner interested in retailing skincare products?</h2>
+            <input class="input-text" type="text" id="website_url" name="website_url" placeholder="Buisness Name"><br><br>
+
+            <input class="input-text" type="text" id="website_url" name="website_url" placeholder="City & State"><br><br>
+
+            <h3>Do you currently stock skincare products?
+            </h3>
+         
+            <input type="radio" id="stock_yes" name="stock-p" value="Yes" required>
+            <label for="stock_yes">Yes</label><br>
+        
+            <input type="radio" id="stock_no" name="stock_p" value="No">
+            <label for="stock-no">No</label><br>          
+            a raodio point here
+
+            <h3>
+                How familiar are you with skincare ingredients and routines? 
+            </h3>
+            <select id="options">
+                <option value="option1">1</option>
+                <option value="option2">2</option>
+                <option value="option3">3</option>
+                <option value="option3">4</option>
+                <option value="option3">5</option>
+            </select><br><br>
+            checkbox
+
+            horizontal radio point
+    
+
+
+            radio point -->
+        </form>
+    </div>
+</body>
+</html>
