@@ -103,7 +103,7 @@ document
           // ✅ Display the code on the page
           document.getElementById("code-display").innerHTML = `
                 🎉 Thank you! <br>
-                Your personal code is: <span style="color: green;">${generatedCode}</span>
+                Your personal code is: <span style="color: white;">${generatedCode}</span>
             `;
             alert("You have Successfully registered, kindly check your REFERRAL CODE below");
         },
