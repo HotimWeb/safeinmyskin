@@ -105,6 +105,7 @@ document
                 🎉 Thank you! <br>
                 Your personal code is: <span style="color: green;">${generatedCode}</span>
             `;
+            alert("You have Successfully registered, kindly check your REFERRAL CODE below");
         },
         function(error) {
           alert("Failed to send email. Try again.");
